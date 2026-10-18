@@ -1,0 +1,12 @@
+# Only the app code, templates, static files and the small TF-IDF model are deployed.
+data/
+downloads/
+logs/
+scripts/
+models/detector_roberta/
+models/humanizer_t5/
+PLAN.md
+text.csv
+static/atin.js
+__pycache__/
+*.pyc

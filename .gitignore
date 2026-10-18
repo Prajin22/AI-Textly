@@ -1,0 +1,18 @@
+# Secrets and local tooling (the Vercel token lives in .env.local)
+.env*
+.vercel/
+.impeccable/
+
+# Python
+__pycache__/
+*.pyc
+
+# Large or regenerable files: datasets, downloads, logs, big models (GitHub rejects files over 100 MB)
+data/
+downloads/
+logs/
+models/detector_roberta/
+models/humanizer_t5/
+
+# Original unlabeled sample file, replaced by data built with scripts/build_dataset.py
+text.csv
